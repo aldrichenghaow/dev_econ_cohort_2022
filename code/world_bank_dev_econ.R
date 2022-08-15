@@ -28,8 +28,8 @@ source("paths.R")
 ###############################################################################
 ###############################################################################
 
-### import data ###
-setwd(file.path(datadir, "data_world_bank"))
+# import data
+setwd(file.path(prelimdir, "data_world_bank"))
 rawdfs_list <- dir() %>% str_subset(".csv")
 rawdfs <- list()
 
@@ -55,7 +55,7 @@ fulldf %>% setnames(
   c("countryname", "countrycode", "indicator")
 )
 
-# reshape data from long-wide/wide-long
+# reshape year and indicator from long to wide/wide to long
 fulldf <- fulldf[, `Indicator Code` := NULL]
 fulldf <-
   fulldf %>% melt(

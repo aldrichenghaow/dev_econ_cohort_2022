@@ -1,0 +1,495 @@
+File Manifest for ICPSR 36151
+
+Desai, Sonalde, and Reeve Vanneman. India Human Development Survey-II
+(IHDS-II), 2011-12. ICPSR36151-v6. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2018-08-08.
+http://doi.org/10.3886/ICPSR36151.v6
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-descriptioncitation.pdf       -       -         -       2021-09-03  -
+
+    36151-related_literature.txt        -       -         -       daily       -
+
+    36151-manifest.txt                  -       -         -       daily       -
+
+    36151-Documentation-Dataguide.pdf   -       -         -       2018-08-08  f575d3b52466617b64f995e1608615a3
+
+    36151-User_guide.pdf                -       -         -       2017-05-26  16f9581c4572849e5e95dbc749fad114
+
+
+DS0001 Individual
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0001-Codebook.pdf             -       -         -       2017-05-26  6cfc1757e91c433fd4cde50666fccb19
+
+    36151-0001-Data.dta                 -       204,569   337     2017-05-26  67a5a728b3660dbc3c240e499f98e346
+
+    36151-0001-Data.rda                 -       204,569   337     2017-05-26  e37fb5981a0df0c533c17ac6ae4e1ca9
+
+    36151-0001-Data.sav                 -       204,569   337     2017-05-26  ca352f88992e845ba5761e3dcbf44ff9
+
+    36151-0001-Data.stc                 -       204,569   337     2017-05-26  97378538b4c09620818d0b4df106bec9
+
+    36151-0001-Data.tsv                 -       204,569   337     2017-05-26  aad3d18e57e7cc83cbb98e010e25bf02
+
+    36151-0001-Data.txt                 1030    204,569   337     2017-05-26  a76c47746651d273097c8479114b03e5
+
+    36151-0001-Questionnaire-original_MULTI.pdf -       -         -       2017-05-26  5898dd15ccb9a93154452dfb95e58254
+
+    36151-0001-Setup.dct                -       -         -       2017-05-26  2445cbcb8faf520450c86980c3185805
+
+    36151-0001-Setup.do                 -       -         -       2017-05-26  241baaf46c562a2063e0fea7a480a17f
+
+    36151-0001-Setup.sas                -       -         -       2017-05-26  7c57772617928fe9184bb994a4f07482
+
+    36151-0001-Setup.sps                -       -         -       2017-05-26  697e13dee133032d6f98b0a5223d6ef8
+
+    36151-0001-Supplemental_syntax.do   -       -         -       2017-05-26  895345e1795d8298d0452c71c8480876
+
+    36151-0001-Supplemental_syntax.sas  -       -         -       2017-05-26  3e2d8212088b6108d5c1251eb65f0011
+
+
+DS0002 Household
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0002-Codebook.pdf             -       -         -       2017-05-26  63793d70696cec98ac9b6d5a99856ac0
+
+    36151-0002-Data.dta                 -       42,152    758     2017-05-26  480fe797c2cb8f04f825eaf883dc69aa
+
+    36151-0002-Data.rda                 -       42,152    758     2017-05-26  b56844435e9ae782728c75711b7358ed
+
+    36151-0002-Data.sav                 -       42,152    758     2017-05-26  90fca53295091304bf869de179700e5b
+
+    36151-0002-Data.stc                 -       42,152    758     2017-05-26  8743d4eeb203e9c66bd31e792525f8b1
+
+    36151-0002-Data.tsv                 -       42,152    758     2017-05-26  a6c1955c5b7a741810ca051e7c8e1038
+
+    36151-0002-Data.txt                 3359    42,152    758     2017-05-26  f5cc2b98e4b0cd7da1b8c838f78c0f65
+
+    36151-0002-Questionnaire-original_MULTI.pdf -       -         -       2017-05-26  5898dd15ccb9a93154452dfb95e58254
+
+    36151-0002-Setup.dct                -       -         -       2017-05-26  d02560296e370b5fa1ae4eeb38660064
+
+    36151-0002-Setup.do                 -       -         -       2017-05-26  b4c427292d59801faaec24e398f2133c
+
+    36151-0002-Setup.sas                -       -         -       2017-05-26  b7cdbfdbcc926cdf428ae251287e739c
+
+    36151-0002-Setup.sps                -       -         -       2017-05-26  afab1a33bfb5db1c1eca7fe3847fb5e2
+
+
+DS0003 Eligible Women
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0003-Codebook.pdf             -       -         -       2017-05-26  c789878f4e3cc2b6f1c0cf1ae3b6fee8
+
+    36151-0003-Data.dta                 -       39,523    580     2017-05-26  9a6a2c7d23b17484b55ae736be9e0417
+
+    36151-0003-Data.rda                 -       39,523    580     2017-05-26  1ac81f3fdf738d44cd192968e9374de7
+
+    36151-0003-Data.sav                 -       39,523    580     2017-05-26  9cc46325c177ac5faede5bf586dc56ee
+
+    36151-0003-Data.stc                 -       39,523    580     2017-05-26  ff0c4147971f6e3b5793eb06d9ce0ea5
+
+    36151-0003-Data.tsv                 -       39,523    580     2017-05-26  da8cdae4643a862e32ceccfb6914e5b6
+
+    36151-0003-Data.txt                 1155    39,523    580     2017-05-26  f67ccd87a06cee12c423184fb2dc3d38
+
+    36151-0003-Questionnaire-original_MULTI.pdf -       -         -       2017-05-26  5898dd15ccb9a93154452dfb95e58254
+
+    36151-0003-Setup.dct                -       -         -       2017-05-26  89a247c846be6791149f11fe1833da5f
+
+    36151-0003-Setup.do                 -       -         -       2017-05-26  ece4f0f45f72f3e2f31a61b0b5958058
+
+    36151-0003-Setup.sas                -       -         -       2017-05-26  418eef7f454a4a44e492607135cf5457
+
+    36151-0003-Setup.sps                -       -         -       2017-05-26  0f3aa1983533567ba3b3f51961eafb59
+
+    36151-0003-Supplemental_syntax.do   -       -         -       2017-05-26  613ba97c1912722728b24ae5ac35d1e0
+
+    36151-0003-Supplemental_syntax.sas  -       -         -       2017-05-26  b5f746e6bd4f3dcee935e088417eaa2d
+
+
+DS0004 Birth History
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0004-Codebook.pdf             -       -         -       2017-05-26  868b8b1649ba5a4e382ad755fba3959d
+
+    36151-0004-Data.dta                 -       111,193   21      2017-05-26  993f283776dd59ce3d34cdfd36c30306
+
+    36151-0004-Data.rda                 -       111,193   21      2017-05-26  85a2dace88972e69cd8f82c43255d323
+
+    36151-0004-Data.sav                 -       111,193   21      2017-05-26  fe39c2a06fe23503af8b055a4fa219df
+
+    36151-0004-Data.stc                 -       111,193   21      2017-05-26  82ba7f444e2c7ef792fcc9f164a6bc9a
+
+    36151-0004-Data.tsv                 -       111,193   21      2017-05-26  9aa5fe429363a8ebae0dcf33c961ac96
+
+    36151-0004-Data.txt                 64      111,193   21      2017-05-26  99baf30d43d2b53dcb54eb05513e5f57
+
+    36151-0004-Setup.dct                -       -         -       2017-05-26  c59cf9bdacad81a075691ad943bd5a3f
+
+    36151-0004-Setup.do                 -       -         -       2017-05-26  eeeca56345510a3045ceda8fd25e72af
+
+    36151-0004-Setup.sas                -       -         -       2017-05-26  c7c9f01f3c9e448f0c13ca274aa81011
+
+    36151-0004-Setup.sps                -       -         -       2017-05-26  8a172b133f799a105ab0e9658c8511f2
+
+    36151-0004-Supplemental_syntax.do   -       -         -       2017-05-26  94a18bc26d4fb23397ccfcd63f7ebd48
+
+    36151-0004-Supplemental_syntax.sas  -       -         -       2017-05-26  8cd4f071e66ca17afd4315ca4ae78bba
+
+
+DS0005 Medical Staff
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0005-Codebook.pdf             -       -         -       2017-05-26  b1c4e4ccac133a0da20e9a4a317a446f
+
+    36151-0005-Data.dta                 -       23,327    18      2017-05-26  fc3be973fc8b18b17f96d023b0e2cdaa
+
+    36151-0005-Data.rda                 -       23,327    18      2017-05-26  e2b96456c1462482ffc88f202eac93e7
+
+    36151-0005-Data.sav                 -       23,327    18      2017-05-26  d1cf8044df0c5cde5af739d09246da39
+
+    36151-0005-Data.stc                 -       23,327    18      2017-05-26  b241cfb02d004d77f87e7b14662ca656
+
+    36151-0005-Data.tsv                 -       23,327    18      2017-05-26  053b6a8688e2bfe2976a1ef6a6cb0d47
+
+    36151-0005-Data.txt                 26      23,327    18      2017-05-26  a5dac23f67c769acb90ab8620affad8b
+
+    36151-0005-Questionnaire-medical_MULTI.pdf -       -         -       2017-05-26  0cfda2e8c08b56eecbb1cf6d41c47086
+
+    36151-0005-Setup.dct                -       -         -       2017-05-26  e4c0501d68112b78bbac146764ea6b6e
+
+    36151-0005-Setup.do                 -       -         -       2017-05-26  d608b5ca5c75f207be87af0ca45406b7
+
+    36151-0005-Setup.sas                -       -         -       2017-05-26  6c1d35c37ad77e1e2f23cd27aceb8a79
+
+    36151-0005-Setup.sps                -       -         -       2017-05-26  abd307609182358e973eb8e4fc2f2843
+
+
+DS0006 Medical Facilities
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0006-Codebook.pdf             -       -         -       2017-05-26  ce49f14f4ad1c40cce371fa65c3078fb
+
+    36151-0006-Data.dta                 -       4,447     158     2017-05-26  86b08be01f78b006888f7c32cf52cb96
+
+    36151-0006-Data.rda                 -       4,447     158     2017-05-26  e972e05545c3e97875b164e25ce95b84
+
+    36151-0006-Data.sav                 -       4,447     158     2017-05-26  39e0e0ad5f584bd499b89caf0fc68673
+
+    36151-0006-Data.stc                 -       4,447     158     2017-05-26  d2047dc37feca3d539a751a97d9d5430
+
+    36151-0006-Data.tsv                 -       4,447     158     2017-05-26  4068631d2e1256302ca4beaa6925d295
+
+    36151-0006-Data.txt                 224     4,447     158     2017-05-26  c66f50f7c759e455a40bffbc7d9d9f69
+
+    36151-0006-Questionnaire-medical_MULTI.pdf -       -         -       2017-05-26  0cfda2e8c08b56eecbb1cf6d41c47086
+
+    36151-0006-Setup.dct                -       -         -       2017-05-26  1c18aa7e4b2b0c6488a451abb198e09a
+
+    36151-0006-Setup.do                 -       -         -       2017-05-26  7b17e1b4361ffb788acb954ed62715d0
+
+    36151-0006-Setup.sas                -       -         -       2017-05-26  c0755d5dcd419b0bdd864764c555b9af
+
+    36151-0006-Setup.sps                -       -         -       2017-05-26  0c56aeaddcbaf952511a0c078d05ba2c
+
+    36151-0006-Supplemental_syntax.do   -       -         -       2017-05-26  306024345c99bacdf3ee00e18e08e5ae
+
+    36151-0006-Supplemental_syntax.sas  -       -         -       2017-05-26  1a7a9ff7762006f750e0b07829297bb7
+
+
+DS0007 Non Resident
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0007-Codebook.pdf             -       -         -       2017-05-26  c73c7dfb9af22385690b03c580d86ff8
+
+    36151-0007-Data.dta                 -       14,248    21      2017-05-26  a4e8a15b79a84a2c4fc5cae719a7eb97
+
+    36151-0007-Data.rda                 -       14,248    21      2017-05-26  50b20a1a49f6d488c8a62015bcebfacc
+
+    36151-0007-Data.sav                 -       14,248    21      2017-05-26  9d83e4389e5674e40edb84997748c84b
+
+    36151-0007-Data.stc                 -       14,248    21      2017-05-26  38c92a0a86f28ef4be6384fd67b5e6f6
+
+    36151-0007-Data.tsv                 -       14,248    21      2017-05-26  a85d4c52f78f361de32c1f9a87f0c73d
+
+    36151-0007-Data.txt                 43      14,248    21      2017-05-26  2a62069dc531b5a258e1b02b8fd0643b
+
+    36151-0007-Setup.dct                -       -         -       2017-05-26  d21fa5978e3d49db2519c0cc3e65ebb1
+
+    36151-0007-Setup.do                 -       -         -       2017-05-26  f1d108dad4872a55f2b3b32dc3abb1fa
+
+    36151-0007-Setup.sas                -       -         -       2017-05-26  8c2c9b1af14c8a978c94cfd8350b42c0
+
+    36151-0007-Setup.sps                -       -         -       2017-05-26  bf4cfa6a67bd7ce399bec86c1e3ea218
+
+
+DS0008 School Staff
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0008-Codebook.pdf             -       -         -       2017-05-26  dc6eaf178d706160f0fa585c84d73e74
+
+    36151-0008-Data.dta                 -       31,994    17      2017-05-26  39ab2883a3bde380188634719b3c5158
+
+    36151-0008-Data.rda                 -       31,994    17      2017-05-26  557974be8a1bff961b1a03d5058222cf
+
+    36151-0008-Data.sav                 -       31,994    17      2017-05-26  833f954991549d4bb685568a73167747
+
+    36151-0008-Data.stc                 -       31,994    17      2017-05-26  7041fd6bf49d4bfe7a0c9dcf3712b30e
+
+    36151-0008-Data.tsv                 -       31,994    17      2017-05-26  1e5113d0ab87fc82c7326b7341ef00cb
+
+    36151-0008-Data.txt                 25      31,994    17      2017-05-26  cdbf850300708b0423d01009c19ce2ac
+
+    36151-0008-Questionnaire-school_MULTI.pdf -       -         -       2017-05-26  5e7298c59be0ee422ffa9efa639310a2
+
+    36151-0008-Setup.dct                -       -         -       2017-05-26  16ca9b7d294d41ae33117a448dcd1873
+
+    36151-0008-Setup.do                 -       -         -       2017-05-26  86073d32b576744eca65b0e12ab6ac44
+
+    36151-0008-Setup.sas                -       -         -       2017-05-26  1a1b91cdf638b92ac86328d2475952cc
+
+    36151-0008-Setup.sps                -       -         -       2017-05-26  311a94e3734c2d9d892486978efe4ab2
+
+    36151-0008-Supplemental_syntax.do   -       -         -       2017-05-26  c205cd4eaacdf037bc95aa9f8e33b7cc
+
+    36151-0008-Supplemental_syntax.sas  -       -         -       2017-05-26  850c5b5dc88c03ee50d6c4828f3946ff
+
+
+DS0009 School Facilities
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0009-Codebook.pdf             -       -         -       2017-05-26  4fed16cb6eb3e8fa34094251a619765e
+
+    36151-0009-Data.dta                 -       4,267     141     2017-05-26  df6a9448ec7c36e02aeffc7590a9f081
+
+    36151-0009-Data.rda                 -       4,267     141     2017-05-26  daffdfa092f938a7e82018f7bb714736
+
+    36151-0009-Data.sav                 -       4,267     141     2017-05-26  6324f305cae537fa9fd38d60d9044865
+
+    36151-0009-Data.stc                 -       4,267     141     2017-05-26  109ebae7c2a91333f2830f62359c3ab7
+
+    36151-0009-Data.tsv                 -       4,267     141     2017-05-26  e33b9df1f34c042a7993f6de4406dcd0
+
+    36151-0009-Data.txt                 287     4,267     141     2017-05-26  406371b4240b337f31f5fbd073bbd2ae
+
+    36151-0009-Questionnaire-school_MULTI.pdf -       -         -       2017-05-26  5e7298c59be0ee422ffa9efa639310a2
+
+    36151-0009-Setup.dct                -       -         -       2017-05-26  525418a75a7fb5f5a8e1de8792358a33
+
+    36151-0009-Setup.do                 -       -         -       2017-05-26  163cb11c2aa3f795f8ff6a923af753fc
+
+    36151-0009-Setup.sas                -       -         -       2017-05-26  62b2e30ca32d634e152a92fd68302181
+
+    36151-0009-Setup.sps                -       -         -       2017-05-26  226a6ff1528534e6ca9bf91d3348a160
+
+    36151-0009-Supplemental_syntax.do   -       -         -       2017-05-26  860ef3636330153934ad555b27ef1e20
+
+    36151-0009-Supplemental_syntax.sas  -       -         -       2017-05-26  edb0e616810cf3e72e02eb6b1c013ac2
+
+
+DS0010 Wage and Salary
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0010-Codebook.pdf             -       -         -       2017-05-26  abd105098793d45c19b532a79f8d35b3
+
+    36151-0010-Data.dta                 -       64,289    19      2017-05-26  e195f1cfc786cfd842b363676748a64b
+
+    36151-0010-Data.rda                 -       64,289    19      2017-05-26  0b2c9ebfab2685d38af0bf3465159870
+
+    36151-0010-Data.sav                 -       64,289    19      2017-05-26  9c0555e4307956fd7571c3df0d910324
+
+    36151-0010-Data.stc                 -       64,289    19      2017-05-26  634a595c4a7e49550c21d2c6b7a37865
+
+    36151-0010-Data.tsv                 -       64,289    19      2017-05-26  0fd5e6f07a4e5141069e17838f84f5c9
+
+    36151-0010-Data.txt                 81      64,289    19      2017-05-26  c42fe999a83757703f1a9afb026a8194
+
+    36151-0010-Setup.dct                -       -         -       2017-05-26  f826ca08d22f3a8b10dda9f60a5ea574
+
+    36151-0010-Setup.do                 -       -         -       2017-05-26  978287e1cd6930e2f153767c27bde090
+
+    36151-0010-Setup.sas                -       -         -       2017-05-26  8604c743fd227f7142e6e323d46aca92
+
+    36151-0010-Setup.sps                -       -         -       2017-05-26  7d046b1f8e601b4f163d41e480d15476
+
+
+DS0011 Tracking
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0011-Codebook.pdf             -       -         -       2017-05-26  8c6ae1dbe89d2f3c60dfa9dbb8c0afec
+
+    36151-0011-Data.dta                 -       215,754   41      2017-05-26  8d69c36e04ea6936af1cf9ac975c61a4
+
+    36151-0011-Data.rda                 -       215,754   41      2017-05-26  e07f651fd2e7d90ced25cd7a16f781f3
+
+    36151-0011-Data.sav                 -       215,754   41      2017-05-26  776a38b4bd2a77a6f712f567ded7bb76
+
+    36151-0011-Data.stc                 -       215,754   41      2017-05-26  064bf1b79cce9fdad66bd9ca864fa71f
+
+    36151-0011-Data.tsv                 -       215,754   41      2017-05-26  b6d92592814c9f5a0efec8c2d19986aa
+
+    36151-0011-Data.txt                 136     215,754   41      2017-05-26  ff04c9029cdd362914b90ed4fe3403f4
+
+    36151-0011-Questionnaire.pdf        -       -         -       2017-05-26  7698af099d0ea1f3828bcb67fe644d88
+
+    36151-0011-Setup.dct                -       -         -       2017-05-26  dabe973e9739b3531cba91a38ff1ee06
+
+    36151-0011-Setup.do                 -       -         -       2017-05-26  0a768db301d232e3bc249ef07ee98940
+
+    36151-0011-Setup.sas                -       -         -       2017-05-26  368216358f461c105377bb908866de82
+
+    36151-0011-Setup.sps                -       -         -       2017-05-26  43ab60b0c1309c16c1d7e60152266f56
+
+    36151-0011-Supplemental_syntax.do   -       -         -       2017-05-26  5287108d3cb73485b714b6a77f2e76f0
+
+    36151-0011-Supplemental_syntax.sas  -       -         -       2017-05-26  eeef8379407ad1386a9adba3c7ed14e4
+
+
+DS0012 Village
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0012-Codebook.pdf             -       -         -       2017-05-26  9c0d2b1f4dd63769cea9d8abe5e93294
+
+    36151-0012-Data.dta                 -       1,410     545     2017-05-26  e5e1224e341cb4dc57c8042299b2a592
+
+    36151-0012-Data.rda                 -       1,410     545     2017-05-26  3874743f783aec055e6f5c458860f094
+
+    36151-0012-Data.sav                 -       1,410     545     2017-05-26  01b9ad3e7874cbd3872c0291dc01e711
+
+    36151-0012-Data.stc                 -       1,410     545     2017-05-26  a326bfba6e6f5d198ae03fc233d7a6d3
+
+    36151-0012-Data.tsv                 -       1,410     545     2017-05-26  9717351c22cd35a8802481359d70fe4f
+
+    36151-0012-Data.txt                 1823    1,410     545     2017-05-26  c8450d7b4a6d1c170622146e20a1bfe2
+
+    36151-0012-Questionnaire.pdf        -       -         -       2017-05-26  7d66b9c9c08c191e6088cd119d07c737
+
+    36151-0012-Setup.dct                -       -         -       2017-05-26  222e6c53f3aa3f2820663ac14a500d89
+
+    36151-0012-Setup.do                 -       -         -       2017-05-26  331bf46a46120be21f9feebf59ffe372
+
+    36151-0012-Setup.sas                -       -         -       2017-05-26  96823310ccae68fc0040576cadcf43e8
+
+    36151-0012-Setup.sps                -       -         -       2017-05-26  8da4b3997f8dacf2b65700167e8e094e
+
+    36151-0012-Supplemental_syntax.do   -       -         -       2017-05-26  696616430a9b280624fba744f47922e5
+
+    36151-0012-Supplemental_syntax.sas  -       -         -       2017-05-26  952dfdbe643206f93d333c7d11d3aa5c
+
+
+DS0013 Village Panchayat
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0013-Codebook.pdf             -       -         -       2017-05-26  7b97073eb8f54eb80222702378608cd6
+
+    36151-0013-Data.dta                 -       14,305    17      2017-05-26  7e719908e241885fc67f407eb94fae3f
+
+    36151-0013-Data.rda                 -       14,305    17      2017-05-26  fd8d0eafafe358143246cd27b4709280
+
+    36151-0013-Data.sav                 -       14,305    17      2017-05-26  a85ee8096b9c2f77fec2dff5ce6b4482
+
+    36151-0013-Data.stc                 -       14,305    17      2017-05-26  1338ce20ac59f5d35998640fcdb65c3f
+
+    36151-0013-Data.tsv                 -       14,305    17      2017-05-26  1dc2001cdb783aa1bbc8281c331f28c0
+
+    36151-0013-Data.txt                 31      14,305    17      2017-05-26  1f1145186c582f8b8e21ff8f9d483e88
+
+    36151-0013-Questionnaire.pdf        -       -         -       2017-05-26  f8f16d1d0477f2c11d13bee728f3f5bc
+
+    36151-0013-Setup.dct                -       -         -       2017-05-26  a494b0fde97eb51a8da741d7717dd156
+
+    36151-0013-Setup.do                 -       -         -       2017-05-26  26d68ee014273caf2ed829a8b93867f1
+
+    36151-0013-Setup.sas                -       -         -       2017-05-26  f00bd2a9621b96238d5031c6081a4aff
+
+    36151-0013-Setup.sps                -       -         -       2017-05-26  8adc3b4b042fbd6cad52a067e19ae6eb
+
+    36151-0013-Supplemental_syntax.do   -       -         -       2017-05-26  beb95bad707910de8ca11dbb724510cd
+
+    36151-0013-Supplemental_syntax.sas  -       -         -       2017-05-26  6fcecc59f6ff413915a58ca265fd3c6e
+
+
+DS0014 Village Respondent
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36151-0014-Codebook.pdf             -       -         -       2017-05-26  61315eab9aeefedc7cd3c32703cc86f1
+
+    36151-0014-Data.dta                 -       11,024    10      2017-05-26  7784f184712a4f95106de677a28a357b
+
+    36151-0014-Data.rda                 -       11,024    10      2017-05-26  56075b1b88797051ce1cc88e345840f8
+
+    36151-0014-Data.sav                 -       11,024    10      2017-05-26  43b12507736b8670f0c52b65e7e0c668
+
+    36151-0014-Data.stc                 -       11,024    10      2017-05-26  5d479becd15d30c23c01b4dc78482d77
+
+    36151-0014-Data.tsv                 -       11,024    10      2017-05-26  61e8b59f1a050337cfa671006befa287
+
+    36151-0014-Data.txt                 21      11,024    10      2017-05-26  cb559bc2629c9f74f2f16dfb4d2b902f
+
+    36151-0014-Questionnaire.pdf        -       -         -       2017-05-26  e4db9d8f48200cb46e02c13022cd1192
+
+    36151-0014-Setup.dct                -       -         -       2017-05-26  60dea7dc9b9080027541b4e8b5ce6ddb
+
+    36151-0014-Setup.do                 -       -         -       2017-05-26  c8da9c92c9eea2efac6a3f74ea547dc3
+
+    36151-0014-Setup.sas                -       -         -       2017-05-26  aef29f8da02b906a4196a503eef4a130
+
+    36151-0014-Setup.sps                -       -         -       2017-05-26  1f8f7839dd189443e81b329edb42b24b
+
+
+Version History
+
+2018-08-08 Added an updated version of the Data Guide documentation.  2017-
+05-26 Added Data Guide.  2016-08-01 <p>This collection has been updated
+with four additional datasets and associated documentation files:</p> <list
+type="bulleted"> <itm>Tracking</itm> <itm>Village</itm> <itm>Village
+Panchayat</itm> <itm>Village Respondent</itm> </list>  2016-04-26 <p>This
+collection has been updated with seven additional datasets and associated
+documentation files:</p> <list type="bulleted"> <itm>Birth History</itm>
+<itm>Medical Staff</itm> <itm>Medical Facilities</itm> <itm>Non
+Resident</itm> <itm>School Staff</itm> <itm>School Facilities</itm>
+<itm>Wage and Salary</itm> </list>  2016-02-15 This collection has been
+updated with a user guide and revised questionnaires obtained from the <a
+href="http://www.ihds.info/data-documentation">India Human Development
+Survey Documentation</a> page.  2015-07-31 This collection has been updated
+to replace the original deposited data files with ICPSR-curated versions of
+the Individual, Household, and Eligible Women datasets. Downloadable files
+now include SPSS, SAS, Stata, R, and ASCII versions of the data files,
+along with associated setup files and PDF codebooks.
