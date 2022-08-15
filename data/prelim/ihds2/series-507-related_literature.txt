@@ -1,0 +1,18 @@
+Bibliography
+India Human Development Survey (IHDS) Series
+
+This bibliography includes published and unpublished works that are
+related to ICPSR series 507. It includes works that are based on
+primary or secondary analysis of the data, or which describe or critique
+those data or the collection methodology. This list represents all items
+known to ICPSR as of 2019-05-21.
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR series used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Ghosh, Jayati, "Indian capitalism in the global context." In Yokokawa,
+Nobuharu; Yagi, Kiichiro; Uemura, Hiroyasu; Westra, Richard, The
+Rejuvenation of Political Economy. 276 - 299, New York: Routledge,2016.
+DOI: 10.4324/9781315621920
