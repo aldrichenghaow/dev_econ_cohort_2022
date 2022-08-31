@@ -5,7 +5,7 @@
 # DO NOT EXCEED WIDTH OF HASHTAGS (80 CHARACTERS)
 
 # clear global environment
-rm(list = ls())
+rm(list = ls(), envir = globalenv())
 
 # clear memory
 gc()
@@ -38,6 +38,7 @@ for (i in seq_along(rawdfs_list)) {
   rawdfs[[i]] <- fread(file = rawdfs_list[i], skip = 4) %>%
     as.data.table()
 }
+rm(i)
 
 # combine data frames
 fulldf <- rawdfs %>%
@@ -73,6 +74,15 @@ fulldf <-
 
 # change column types
 fulldf[, year := as.numeric(year)]
+
+# select variables
+idvars <- colnames(fulldf)[1:3]
+statvars <- colnames(fulldf)[4:ncol(fulldf)] %>%
+  as.data.table() %>%
+  setnames(".", "statistic")
+knames <- unique(fulldf$countryname) %>%
+  as.data.table() %>%
+  setnames(".", "kname")
 
 # clear memory
 gc()
