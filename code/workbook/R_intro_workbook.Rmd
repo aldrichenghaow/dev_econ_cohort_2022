@@ -1,0 +1,105 @@
+---
+title: "Workbook #1 - Introduction of R"
+author: "Aldrich Wang"
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 2
+date: "Sept 15, 2022"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+R programming and exploratory data analysis have been very significant in the process of economic research. We cannot testify a hypothesis or test a model without collecting data or performing quantitative analysis on our collected databases. Similarly, mastering the R language is an extremely important step in producing a research project by ourselves. In our cohort, we will learn how to use R step by step in order to succeed in economic research.
+
+Normally, data analysis includes data import, tidying, transformation, visualization, modeling, and conclusion. In this first workbook, we are gonna focus on data visualization.
+
+*Note: This workbook is prepared for members who have little to no previous experience with R. If you have been using this language for quite a while, feel free to skip this workbook exercise.*
+
+
+## Intro to Dataframes
+
+The following code chunk showcases the packages that we need for our work - we can use different functions from these packages. This could be a head start on our work.
+
+```{r libraries, include = TRUE}
+# load required packages
+library(tibble)
+library(ggplot2)
+library(gapminder)
+```
+
+In the following chunk, we are able to view this displayed data frame, named "gapminder". The size of this data frame is 1704 * 6. The first row of this data frame tells us the variable names - country, continent, year, lifeExp (life expectancy at birth), pop (total population), gdpPercap (GDP per capita). As we can see in the variables, the data stored in a data frame can be of **numeric**, **factor**, or **character** type. In a **tidy** data frame, each variable forms a column; each observation forms a row; each cell is a single measurement.
+
+```{r gapminder}
+gapminder
+```
+
+## Data Visualization - different types of plot in R
+R is a powerful tool when it comes to data visualization. With the ggplot2 package, we are able to plot histograms, box plots, violin plots, scatter plots, etc. 
+
+### Histograms
+Let's generate a histogram of life expectancy from the gapminder data frame. We'll build on this plain histogram and make it look fancier.
+```{r histogram1}
+ggplot(data = gapminder, mapping = aes(x = lifeExp)) +
+  geom_histogram(binwidth = 3)
+```
+
+Then, we add labels to this graph to make it more elaborate for our readers and assign a color to this graph for maroon pride.
+```{r histogram2}
+ggplot(data = gapminder, 
+       mapping = aes(x = lifeExp)) +
+  geom_histogram(binwidth = 3, 
+                 fill = "maroon") + 
+  labs(title = "Histogram of Life Expectancy",
+       x = "Life Expectancy",
+       y = "Count of Observations")
+```
+
+**Exercise**: Can you try to generate separate histograms of life expectancy for each continent? Feel free to google and talk with others!
+```{r histogram3}
+
+```
+
+### Box plots
+After the introduction of histograms, box plots are usually good at giving us information on distributions. Let's compare the distribution of life expectancy by continent from a box plot. (Feel free to play around with the code to change the color you like!)
+```{r box plot}
+ggplot(data = gapminder, mapping = aes(x = continent, y = lifeExp)) +
+  geom_boxplot() + 
+  labs(title = "Distribution of Life Expectancy by Continent",
+       x = "Continent",
+       y = "Life Expectancy")
+```
+
+### Violin Plots
+**Exercise**: By a similar logic to creating a box plot, please try to create a violin plot detailing the distribution of life expectancy by continent.
+```{r violin plot}
+
+```
+
+### Scatter Plots
+Now let's do scatter plots. Use the scatter plot to showcase the relationship between per capita GDP and life expectancy. We also need a smoothing line for these scatter dots on the graph, as this line itself can roughly tell us the relationship between two variables.
+```{r scatter plot 1}
+ggplot(data = gapminder, 
+       mapping = aes(x = gdpPercap, 
+                     y = lifeExp)) +
+  geom_point() + 
+  geom_smooth(method = 'gam') + # the smoothing line
+  labs(title = "Distribution of Life Expectancy",
+       x = "Continent",
+       y = "Life Expectancy")
+```
+
+**Exercise**: Use color to identify how this relationship differs by continent.
+```{r scatter plot 2}
+
+```
+
+
+## Session Info
+```{r, echo = TRUE}
+sessioninfo::session_info()
+```
