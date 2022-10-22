@@ -13,7 +13,6 @@ gc()
 # load required libraries
 require(tidyverse)
 require(data.table)
-require(ggplot2)
 require(testthat)
 require(janitor)
 require(rprojroot)
