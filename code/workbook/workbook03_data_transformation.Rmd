@@ -1,0 +1,90 @@
+---
+title: "Workbook #3 - Data Transformation"
+author: "Aldrich Wang"
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 2
+date: "November 5, 2022"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+
+Congratulations on completing our first R workbook exercise! Hopefully, you guys enjoyed the process of coding, googling, reaching out for help, debugging, googling, reaching out for help, debugging, ...., and eventually creating some amazing output that you want. It is always possible to encounter different bugs and issues while programming, so just don't panic at all!
+
+We have spent two entire weeks on the introduction of data frames and data visualization in R, so the next step is to learn some data transformation. **Why are we doing data transformation?** For almost all the time, your data frame is not in a usable format and this is your job to structure it into a format that you can make full use of a data frame. In this workbook, we will use another data frame provided by R itself, learn useful functions in data transformation, and create something interesting.
+
+As always, we need to create a chunk of code to load packages first.
+```{r load packages}
+#install.packages("tidyverse")
+#install.packages("palmerpenguins") # this contains "penguins"
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+## Penguins
+
+After importing the data frame, we can view the displayed data frame to get a sense of what this actually looks like.
+```{r display the data frame}
+penguins
+unique(penguins$species) # retrieve different species of penguins
+```
+
+From the above, there are three species of penguins - Adelie, Gentoo, and Chinstrap. *Here is our first question - what is the average body mass of a Gentoo penguin?*
+
+How to approach this problem? Two essential steps that we are going to consider: (1) select the rows that are observations of Gentoo penguins, and (2) calculate the average body mass of Gentoo penguins. Here is our example code: 
+(Explanations: The first line of code uses the filter function to filter out only Gentoo penguins and assigns the filtered data frame a new name - gentoo_penguins. The second line of code helps calculate the average mass of Gentoo penguins.)
+```{r calculate the avg mass of Gentoo penguins}
+gentoo_penguins <- filter(.data = penguins, species == "Gentoo")
+summarize(.data = gentoo_penguins, avg_mass = mean(body_mass_g, na.rm = TRUE))
+gentoo_penguins
+```
+
+We have utilized two important functions here - **filter** and **summarize**. The filter function helps us to filter out useful observations of the data frame, and the summarize function can summarize the data frame into one neat value/factor.
+
+Here is our first (very simple) exercise. *What is the average body mass of an Adelie penguin?*
+```{r exercise 01}
+
+```
+
+Let's level the two previous questions a little. *What is the average body mass of a penguin for each species?* You could definitely use the filter function to obtain the average mass of each of the three species respectively. But this method tends to be extremely tedious if there are thousands of species of penguins, doesn't it? We can use the **group_by** function here when we focus on one variable of the data frame. The sample code is shown below:
+```{r calculate the avg mass of each species}
+species_penguins <- group_by(penguins, species)
+summarize(.data = species_penguins, avg_mass = mean(body_mass_g, na.rm = TRUE)) # argument "na.rm = TRUE" is important
+```
+
+Great! So here we have accomplished the task of computing the average body mass of each species. Importantly, we have learned several functions in data transformation - filter, summarize, and group_by. Then, the pipe operator, %>%, will be introduced to help us link a sequence of code. Suppose we are asked the same question, but this time we are going to employ the pipe operator. Here is the sample code with piping: 
+(Note: the pipe operator does not change the result that we get by any means, it is just supposed to make the code neater!) 
+```{r add piping to calculate avg mass}
+avg_mass_penguins <- penguins %>% 
+  group_by(species) %>% 
+  summarize(avg_mass = mean(body_mass_g, na.rm = TRUE))
+
+avg_mass_penguins
+```
+
+Now, the floor is yours! Here is a somehow challenging problem - *can you compute the average bill length for each Gentoo penguin by sex?* It doesn't really matter whether you are going to employ the pipe operator.
+```{r exercise 02}
+
+```
+
+Another question! *Can you compute both the average bill length and depth for each Chinstrap penguin by sex?* Try not to print your results in two separate tables, put them in one.
+```{r exercise 03}
+
+```
+
+If you have completed both questions above, feel free to play around with this data frame using the following chunk of space. Here is one perspective that you might want to try: can you employ data visualization techniques on this data frame? (Maybe try to plot a boxplot to showcase the distribution of average bill length of Chinstrap penguins.)
+```{r code anything you want}
+
+```
+
+## Session Info
+```{r, echo = TRUE}
+sessioninfo::session_info()
+```
