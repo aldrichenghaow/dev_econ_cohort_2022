@@ -39,14 +39,6 @@ ihds1 <- tmpname %>% get()
 rm(list = c(tmpname, "tmpname", ihds1_filename))
 
 # plot data
-tmpdf <- ihds1 %>% select(HHED5ADULT, INCOME)
-tmpdf %>% ggplot(aes(x = HHED5ADULT, y = INCOME)) +
-  geom_boxplot() +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 4)) +
-  scale_y_continuous(limits = c(0, 150000), expand = c(0,0)) +
-  theme_bw()
-
-# plot data
 plot(ihds1$HHED5ADULT, ihds1$INCOME, ylim = c(0,150000))
 
 # plot data with ggplot
