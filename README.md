@@ -18,9 +18,10 @@ If you have missed a meeting for any reason, feel free to check our detailed age
 | 10/22/2022  | R Setup & Workbook 01 (first half) |
 | 10/29/2022  | Stats (Probability) & Workbook 01 (second half) |
 | 11/5/2022   | Stats (Set Theory) & Workbook 02 (basically Github setup) |
+| 11/12/2022  | Stats (Probability Rules and Conditional Probability) & Workbook 03 |
 
 
 ## Additional Notes
 **Note**: Please remember to always create a copy instead of directly editing our original files. If you are considering pushing your code, please open pull requests.
 
-**Special thanks** to Benjamin Soltoff (data scientist and educator at Cornell University) for his kind support and permission for us to reuse some of his materials, including lecture slides and datasets. The link can be found here: https://info5940.infosci.cornell.edu/.
+**Special thanks** to Benjamin Soltoff (data scientist and educator at Cornell University) for his kind support and permission for us to reuse some of his class materials, including lecture slides about R and datasets. The link can be found here: https://info5940.infosci.cornell.edu/.
