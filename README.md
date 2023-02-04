@@ -18,8 +18,16 @@ If you have missed a meeting for any reason, feel free to check our detailed age
 | 10/22/2022  | R Setup & Workbook 01 (first half) |
 | 10/29/2022  | Stats (Probability) & Workbook 01 (second half) |
 | 11/5/2022   | Stats (Set Theory) & Workbook 02 (basically Github setup) |
-| 11/12/2022  | Stats (Probability Rules and Conditional Probability) & Workbook 03 |
+| 11/12/2022  | Stats (Probability Rules and Conditional Probability) & Workbook 02 (remaining half) |
 
+**Winter Quarter**:
+| Date        | Agenda |
+| ----------- | ----------- |
+|  1/7/2023   | Welcome Back & Cohort Quarter Plan |
+|  1/14/2023  | Linear Regression & Causal Inference Presentation |
+|  1/21/2023  | Project Groups Confirmed & Workbook 03 |
+|  1/28/2023  | Literature Review & Structure of an Economics Research Paper |
+|  2/4/2023   | Workbook 04 (World Bank Data) |
 
 ## Additional Notes
 **Note**: Please remember to always create a copy instead of directly editing our original files. If you are considering pushing your code, please open pull requests.

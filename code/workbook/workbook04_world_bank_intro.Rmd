@@ -1,0 +1,104 @@
+---
+title: "Workbook #4: Intro to World Bank Data"
+author: "Aldrich Wang"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+Hey folks, welcome to our next workbook - Intro to World Bank Data! This officially marks the beginning of our research project, as we prepare this workbook to basically walk you guys through the extremely large data set that we'll be working on during the rest of this year. In this workbook, we will be importing the data set and conducting some simple data analysis. Without further ado, let's get into it.
+
+First, load useful packages.
+```{r import packages}
+library(tidyverse)
+library(here)
+```
+
+## Import data files
+
+The following chunk of code contains a data import function - this is kind of complicated, and you don't have to fully understand this to move forward. But if you are interested in learning tidying up data and importing data files, you are more than welcome to talk with us about how this works!
+```{r import data}
+# create the import_data function
+import_data <- function(file_path){
+  # take in the .csv file
+  data <- read_csv(here("data/prelim/data_world_bank", file_path), 
+                   skip = 3) %>%
+    select(-"Indicator Code") %>%
+    pivot_longer(
+      # tidy up the data and make indicator names on the first row
+      cols = c(4:64),
+      names_to = "year",
+      values_to = "values"
+    ) %>%
+    pivot_wider(
+      names_from = c("Indicator Name"),
+      values_from = "values"
+    ) %>%
+    # convert variable into numeric type
+    mutate(year = as.numeric(year))
+  return(data)
+}
+```
+
+```{r import data, further}
+# import data frames in the data_world_bank file and merge them into one
+# list .csv data files
+merged_data <- list.files(here("data/prelim/data_world_bank"), pattern = "*.csv")
+paste("data_world_bank", merged_data, sep="/")
+# set the right directory
+setwd("~/dev_econ_cohort_2022/data/prelim/data_world_bank")
+# merge data frames into one
+all_data <- plyr:::ldply(merged_data, import_data)  
+```
+
+```{r preview the data frame}
+glimpse(all_data)
+```
+
+## Data analysis work
+Note: I want to leave this workbook as an open-ended exercise, as there are tons of variables for us to play with - that being said, I will assign 2 questions for you to work on in groups, and afterward you guys can feel free to work on questions that you are interested in.
+
+### Question 1: Explore the difference in the unemployment rate between females and males in the U.S.
+```{r q1}
+# let's use the following filtered data frame for convenience, as you only need two variables for this
+gender_united_states <- all_data %>%
+  # use the filter function to obtain only the data in the US
+  filter(`Country Name` == "United States") %>%
+  # select useful variables for this part of data exploration
+  select(`year`,
+         `Unemployment, female (% of female labor force) (national estimate)`,
+         `Unemployment, male (% of male labor force) (national estimate)`)
+
+# let's then do some data visualization work....
+
+```
+
+### Question 2: Explore the relationship between advanced education and unemployment rate in the United States
+```{r q2}
+# this is the filtered data frame
+advanced_level_education_us <- all_data %>%
+  # obtain the data of United States
+  filter(`Country Name` == "United States") %>%
+  # select only useful variables
+  select(`Country Name`, 
+         `year`, 
+         `Unemployment, total (% of total labor force) (national estimate)`,
+         `Unemployment with advanced education (% of total labor force with advanced education)`)
+
+# code something here!
+
+```
+
+## Exploration
+These two questions above are designed to help you review the use of ggplot, as it has been a while since we last used this package. Then, as said earlier, let's explore the data set according to your own interest!
+```{r}
+
+```
+
+## Session Info
+```{r, echo = TRUE}
+sessioninfo::session_info()
+```
