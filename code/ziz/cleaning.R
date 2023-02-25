@@ -70,8 +70,10 @@ knames <- unique(alldf$countryname) %>%
   as.data.table() %>%
   setnames(".", "kname")
 
+# switch to output folder
+setwd(file.path(datadir, "world_bank_cleaned"))
+
 # # output country-specific tables
-# setwd(file.path(datadir, "world_bank_cleaned"))
 # saveme <- function (df) {
 #   kname = unique(df[, countryname])
 #   fwrite(df, paste0(kname, ".csv"))
