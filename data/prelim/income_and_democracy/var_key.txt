@@ -1,0 +1,40 @@
+VARIABLE NAME	VARIABLE DESCRIPTION
+age_midage	Percent population age 30-45 
+age_old	Percent population age 45-60
+age_veryold	Percent population age 60-
+age_veryyoung	Percent population age 0-15
+age_young	Percent population age 15-30
+code	Country code
+code_numeric	Country numerical code
+colony	Dummy for former colony sample
+consfirstaug	Constraint on the executive at independence
+country	Country name
+democ	500 year democracy change
+education	Average schooling years
+fhpolrigaug	Augmented Freedom House Political Rights Index
+growth	500 year income per capita change
+indcent	Year of independence/100
+indyear	Year of independence
+laborshare	% labor share of gross value added
+logem4	Log settler mortality
+lpd1500s	Log population density 1500
+lpop	Log(total population in thousands)
+lrgdpch	Log real GDP per capita (PWT)
+lrgdpmad	Log real GDP per Capita (Maddison, nearest aggregation)
+madid	Aggregation ID of extrapolation for clustering
+medage	Median age in population
+noextrapolation	Data which are not extrapolated in Maddison
+nsave	Nominal savings rate: (Y-C-G)/Y
+polity4	Polity IV index
+rel_catho80	catholics % of population
+rel_muslim80	muslim % of population
+rel_protmg80	protestant % of population
+sample	Dummy for base sample
+samplebalancegmm	Dummy for balanced sample for GMM
+samplebalancefe	Dummy for alanced sample for fixed effects
+socialist	Dummy for Soviet Block, including iron curtain
+world	Dummy for world sample
+worlddemocracy	Trade weighted world democracy
+worldincome	Trade weighted world income instrument
+year	Year of observation
+year_numeric	Year of observation numerical

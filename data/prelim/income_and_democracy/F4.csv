@@ -1,0 +1,38 @@
+code,country,s2polity4,s2lrgdpmadalt
+ARG,Argentina,0.35,1.131557
+AUT,Austria,0.7,1.942159
+BEL,Belgium,0.2,1.715492
+BOL,Bolivia,0.35,1.196779
+BRA,Brazil,0.55,2.102918
+CHE,Switzerland,0,1.748529
+CHL,Chile,0.3,1.618964
+CHN,China,-0.05,1.837822
+COL,Colombia,0.35,1.655631
+CRI,Costa Rica,0,2.071328
+DNK,Denmark,0.65,2.031816
+DOM,Dominican Republic,0.55,1.549341
+ECU,Ecuador,0.35,1.382594
+ESP,Spain,0.2,2.145682
+FRA,France,0.05,1.979064
+GBR,United Kingdom,0.15,1.484308
+GRC,Greece,0,2.187642
+GTM,Guatemala,0.85,1.473515
+HND,Honduras,0.1,0.9223418
+HTI,Haiti,0.05,0.0409117
+IRN,Iran,0.65,2.006464
+LBR,Liberia,0.2,0.34303
+MEX,Mexico,0.85,1.664872
+NIC,Nicaragua,0.65,0.6946964
+NLD,Netherlands,0.6,1.841583
+NOR,Norway,0,2.531868
+NPL,Nepal,0.45,0.4730768
+OMN,Oman,-0.15,2.380489
+PRT,Portugal,0.65,2.376618
+PRY,Paraguay,0.55,1.354252
+SLV,El Salvador,0.4,1.25002
+SWE,Sweden,0.7,2.071275
+THA,Thailand,0.95,2.320138
+TUR,Turkey,0.85,2.336674
+URY,Uruguay,0.65,1.264812
+USA,United States,0,1.928072
+VEN,"Venezuela, RB",0.5,2.326992

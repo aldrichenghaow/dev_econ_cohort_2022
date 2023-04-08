@@ -1,0 +1,99 @@
+code,country,s5polity4,s5lrgdpch
+ARG,Argentina,0.8,0.1026182
+AUS,Australia,0,0.4082031
+AUT,Austria,0,0.6320171
+BEL,Belgium,0,0.5437155
+BEN,Benin,0.4,-0.0263696
+BFA,Burkina Faso,-0.05,0.2641988
+BOL,Bolivia,0.7,0.0455799
+BRA,Brazil,0.85,0.6253176
+BWA,Botswana,0.05,1.596954
+CAF,Central African Republic,0.6,-0.7171111
+CAN,Canada,0,0.486866
+CHE,Switzerland,0,0.1743307
+CHL,Chile,0.1,0.5712748
+CHN,China,0.05,1.240907
+CIV,Cote d'Ivoire,0.15,-0.2149816
+CMR,Cameroon,0.15,0.1601706
+COG,"Congo, Rep.",0.6,0.6392183
+COL,Colombia,0,0.5507107
+CRI,Costa Rica,0,0.2435303
+CYP,Cyprus,0.15,1.113588
+DNK,Denmark,0,0.3889456
+DOM,Dominican Republic,0.4,0.61168
+DZA,Algeria,0.3,0.2962847
+ECU,Ecuador,0.45,0.5272136
+EGY,"Egypt, Arab Rep.",0.2,0.6044588
+ESP,Spain,0.85,0.586194
+FIN,Finland,0,0.4986305
+FJI,Fiji,-0.2,0.4211063
+FRA,France,0.05,0.4889698
+GAB,Gabon,0.25,0.2622766
+GBR,United Kingdom,0,0.48417
+GHA,Ghana,-0.2,-0.0069709
+GIN,Guinea,0.4,0.1409707
+GMB,"Gambia, The",-0.75,-0.0443149
+GNQ,Equatorial Guinea,0.1,-1.188562
+GRC,Greece,0.85,0.390419
+GTM,Guatemala,0.1,0.2318478
+GUY,Guyana,0.25,0.0818014
+HND,Honduras,0.35,0.0978546
+HTI,Haiti,0.8,0.4540133
+HUN,Hungary,0.85,0.475132
+IDN,Indonesia,0,1.209435
+IND,India,0,0.6119685
+IRL,Ireland,0,0.8664074
+IRN,Iran,0.2,-0.0414124
+ISL,Iceland,0,0.6288013
+ISR,Israel,0,0.6031475
+ITA,Italy,0,0.5860119
+JAM,Jamaica,-0.05,-0.0157185
+JOR,Jordan,0.35,0.521925
+JPN,Japan,0,0.7070465
+KEN,Kenya,0.1,0.4227324
+KOR,"Korea, Rep.",0.15,1.607497
+LKA,Sri Lanka,-0.15,0.6772132
+LSO,Lesotho,0.85,0.4240084
+MAR,Morocco,0.1,0.4172111
+MDG,Madagascar,0.5,-0.441524
+MEX,Mexico,0.5,0.2618618
+MLI,Mali,0.7,0.0348196
+MRT,Mauritania,0.05,-0.4000983
+MUS,Mauritius,0.05,1.039816
+MWI,Malawi,0.8,0.3906131
+MYS,Malaysia,0.1,1.104867
+NER,Niger,0.75,-0.6088548
+NGA,Nigeria,0.05,-0.1843128
+NIC,Nicaragua,0.8,-0.7827382
+NLD,Netherlands,0,0.4496231
+NOR,Norway,0,0.758709
+NPL,Nepal,0.7,0.4207997
+NZL,New Zealand,0,0.2427502
+PAN,Panama,0.8,0.3858557
+PER,Peru,0.4,-0.0566788
+PHL,Philippines,0.3,0.2345014
+PRT,Portugal,0.95,0.7270041
+PRY,Paraguay,0.75,0.6236448
+ROM,Romania,0.6,0.8329763
+RWA,Rwanda,-0.05,-0.1797738
+SEN,Senegal,0.3,-0.110466
+SGP,Singapore,0,1.456149
+SLE,Sierra Leone,-0.4,-0.5209031
+SLV,El Salvador,0.35,0.0094557
+SWE,Sweden,0,0.3334494
+SYR,Syrian Arab Republic,0,0.8692393
+TCD,Chad,0.25,-0.2771602
+TGO,Togo,0.25,-0.4611139
+THA,Thailand,0.35,1.311611
+TTO,Trinidad and Tobago,0.05,0.3347349
+TUN,Tunisia,0.25,0.7638211
+TUR,Turkey,0,0.5240774
+TWN,Taiwan,0.75,1.667639
+TZA,Tanzania,0.3,-0.1902924
+UGA,Uganda,0.15,0.2833204
+URY,Uruguay,0.1,0.3605709
+USA,United States,0,0.5523863
+VEN,"Venezuela, RB",-0.05,-0.3947868
+ZAF,South Africa,0.25,0.0488815
+ZMB,Zambia,0.3,-0.4943666
+ZWE,Zimbabwe,-0.5,0.2068362
