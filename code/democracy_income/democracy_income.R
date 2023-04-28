@@ -29,22 +29,30 @@ source("paths.R")
 ###############################################################################
 
 # load data
-setwd(file.path(prelimdir, "data_world_bank"))
-df <- fread("API_AFG_DS2_en_csv_v2_1223036.csv") %>% as.data.table
+setwd(file.path(prelimdir, "income_and_democracy"))
+df <- fread("5yr.csv")
 
-# clean data
-colnames(df) <- df %>% 
-  slice(1) %>% 
-  as.character()
-df <- df %>% slice(2:nrow(df))
+# create lagged variables and factor time
+df[, `:=` (lagged_fhpolrigaug = shift(fhpolrigaug),
+           lagged_lrgdpch = shift(lrgdpch)),
+   by = c("country")]
+df[, year := as.factor(year)]
 
-# colnames(df) <- df[1] %>% as.character()
-# df <- df[-1]
 
-# pivot to longer
-longdf <- df %>% pivot_longer(cols = 5:ncol(df), names_to = "year")
-longdf <- longdf %>% filter(!is.na(value))
-colnames(longdf) <- colnames(longdf) %>% str_to_lower()
-temp <- longdf %>% filter(`indicator name` == "Gross domestic savings (current US$)")
-temp %>% ggplot(aes(x = year, y = value)) +
-  geom_point()
+# make_yr_dummy <- function (x) {
+#   df[, as.character(x) := as.integer((year == x))]
+# }
+# lapply(df$year %>% unique(), make_yr_dummy)
+# View(df)
+
+# model1
+require(sandwich)
+require(lmtest)
+require(multiwayvcov)
+model1 <- lm(fhpolrigaug ~ lagged_fhpolrigaug + lagged_lrgdpch + year, data = df[sample == 1])
+cluster_se <- sqrt(diag(cluster.vcov(model1, ~code, data = df)))
+coeftest(model1, vcov = cluster.vcov(model, ~code, data = df))
+
+coeftest(model1,
+         vcov = sandwich,
+         cluster = df$code)
