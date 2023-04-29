@@ -30,14 +30,14 @@ source("paths.R")
 
 # load data
 setwd(file.path(prelimdir, "income_and_democracy"))
-df <- fread("5yr.csv")
+df <- fread("10yr.csv")
 
 # create lagged variables and factor time
-df[, `:=` (lagged_fhpolrigaug = shift(fhpolrigaug),
+df[, `:=` (lagged_polity4 = shift(polity4),
            lagged_lrgdpch = shift(lrgdpch)),
    by = c("country")]
 df[, year := as.factor(year)]
-
+df[, code := as.factor(code)]
 
 # make_yr_dummy <- function (x) {
 #   df[, as.character(x) := as.integer((year == x))]
@@ -45,14 +45,8 @@ df[, year := as.factor(year)]
 # lapply(df$year %>% unique(), make_yr_dummy)
 # View(df)
 
-# model1
-require(sandwich)
-require(lmtest)
-require(multiwayvcov)
-model1 <- lm(fhpolrigaug ~ lagged_fhpolrigaug + lagged_lrgdpch + year, data = df[sample == 1])
-cluster_se <- sqrt(diag(cluster.vcov(model1, ~code, data = df)))
-coeftest(model1, vcov = cluster.vcov(model, ~code, data = df))
-
-coeftest(model1,
-         vcov = sandwich,
-         cluster = df$code)
+# clustered model
+require(survey)
+clusters <- svydesign(ids = ~code, data = df[sample == 1])
+model2 <- svyglm(polity4 ~ lagged_polity4 + lagged_lrgdpch + year + code, design = clusters)
+summary(model2)
