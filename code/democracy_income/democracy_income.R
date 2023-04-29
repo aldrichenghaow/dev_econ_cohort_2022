@@ -47,6 +47,17 @@ df[, code := as.factor(code)]
 
 # clustered model
 require(survey)
-clusters <- svydesign(ids = ~code, data = df[sample == 1])
-model2 <- svyglm(polity4 ~ lagged_polity4 + lagged_lrgdpch + year + code, design = clusters)
+clusters <- svydesign(ids = ~ code, data = df[sample == 1])
+model2 <-
+  svyglm(polity4 ~ lagged_polity4 + lagged_lrgdpch + year + code, design = clusters)
 summary(model2)
+
+require(stargazer)
+demo <-
+  lm(polity4 ~ lagged_polity4 + lagged_lrgdpch + year + code, data = df[sample == 1])
+stargazer(
+  demo,
+  dep.var.labels = "Polity Index",
+  covariate.labels = c("Polity Index (t-1)", "Real GDP (t-1)"),
+  out = "tex"
+)
